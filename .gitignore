@@ -1,0 +1,114 @@
+# Archivos de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de dependencias descargadas
+/node_modules/
+/bower_components/
+
+# Archivos de configuración de entorno local
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ########################### #
+# #### SPRING BOOT (Java) ### #
+# ########################### #
+
+# Archivos de build de Maven o Gradle
+/target/
+/build/
+/out/
+
+# Archivos generados por el build
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración específicos del IDE para proyectos Java
+.classpath
+.project
+.settings/
+.factorypath
+
+# Archivos del wrapper de Maven (si no se desea compartir)
+# Descomentar si no se quiere incluir el wrapper en el repositorio
+# .mvn/
+# mvnw
+# mvnw.cmd
+
+# Archivos de test
+/coverage/
+
+# ########################### #
+# ####   ANGULAR (Frontend) ## #
+# ########################### #
+
+# Archivos de build de Angular
+/dist/
+/tmp/
+
+# Cache de Angular CLI
+/.angular/cache/
+
+# Archivos de configuración de pruebas y cobertura
+/coverage/
+/e2e/
+*.map
+
+# Archivos de configuración de editores y herramientas
+.browserslistrc # Si es generado automáticamente y no se personaliza
+
+# Archivos temporales de Webpack
+.webpack/
+
+# ########################### #
+# ####   IDES Y EDITORES   #### #
+# ########################### #
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ########################### #
+# #### SISTEMA OPERATIVO #### #
+# ########################### #
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
