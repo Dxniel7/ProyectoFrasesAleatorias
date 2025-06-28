@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: frases-backend
+    env: java
+    rootDir: FrasesMotivacionales
+    buildCommand: ./mvn clean install
+    startCommand: java -jar target/FrasesMotivacionales-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: DB_URL
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
