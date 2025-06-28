@@ -14,6 +14,6 @@ public interface FrasesRepository extends CrudRepository<Frases, Long> {
      * Nota: ORDER BY RAND() puede ser lento en tablas muy grandes, 
      * pero es perfecto para este caso de uso.
      */
-    @Query(value = "SELECT * FROM Frases ORDER BY RAND() LIMIT 1", nativeQuery = true)
+    @Query(value = "SELECT * FROM Frases ORDER BY RANDOM() LIMIT 1", nativeQuery = true)
     Optional<Frases> findRandomFrase(); 
 }  
