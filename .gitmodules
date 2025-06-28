@@ -1,0 +1,3 @@
+[submodule "frases-ui"]
+	path = frases-ui
+	url = https://github.com/Dxniel7/frases-ui
