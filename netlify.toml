@@ -9,3 +9,8 @@
   
   # Este es el comando que ejecutará Netlify para compilar nuestro proyecto.
   command = "ng build --configuration=production"
+
+  [[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
