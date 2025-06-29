@@ -1,0 +1,11 @@
+[build]
+  # Base directory es el directorio donde se ejecuta el comando de compilación.
+  # Netlify se moverá a esta carpeta antes de construir.
+  base = "frases-ui"
+  
+  # Publish es el directorio de salida de la compilación, relativo al directorio base.
+  # El comando 'ng build' genera 'dist/frases-ui/browser' dentro de 'frases-ui/'.
+  publish = "dist/frases-ui/browser"
+  
+  # Este es el comando que ejecutará Netlify para compilar nuestro proyecto.
+  command = "ng build --prod"
