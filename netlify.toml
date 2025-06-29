@@ -10,7 +10,9 @@
   # Este es el comando que ejecutará Netlify para compilar nuestro proyecto.
   command = "ng build --configuration=production"
 
-  [[redirects]]
+# Regla de redirección para SPA
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = true # Asegura que esta redirección se aplique incluso si hay un archivo que coincide 
