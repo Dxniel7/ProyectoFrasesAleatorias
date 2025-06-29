@@ -8,4 +8,4 @@
   publish = "dist/frases-ui/browser"
   
   # Este es el comando que ejecutará Netlify para compilar nuestro proyecto.
-  command = "ng build --prod"
+  command = "ng build --configuration=production"
