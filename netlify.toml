@@ -15,4 +15,3 @@
   from = "/*"
   to = "/index.csr.html"
   status = 200
-  force = true # Asegura que esta redirección se aplique incluso si hay un archivo que coincide 
